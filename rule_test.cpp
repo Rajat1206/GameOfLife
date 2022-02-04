@@ -76,7 +76,7 @@ int main(void)
         std::cout << std::endl;
     }
     
-    for (int i = 0; i < 10; ++i) {
+    for (int k = 0; k < 50; ++k) {
         nextStep(array);
         
         std::cout << "Next:" << std::endl;
@@ -86,6 +86,7 @@ int main(void)
             }
             std::cout << std::endl;
         }
+        // system("clear");
     }
     return 0;
 }
